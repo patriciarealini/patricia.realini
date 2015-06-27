@@ -5,26 +5,26 @@
 .nav ul li:hover>ul{
 	display: block;
 }
-.nav ul{  
+.nav ul{
 	margin-right: auto;
 	margin-left: auto;
-	border-radius: 0px;  
+	border-radius: 0px;
 	list-style: none;
 	position: relative;
 	display: inline-table;
 }
 	.nav ul:after{
-		content: ""; 
-		clear: both; 
+		content: "";
+		clear: both;
 		display: block;
 	}
 .nav ul li{
 	padding: 0;
 	float: left;
 	display: inline;
-}	
+}
 	.nav ul li{
-		display: block; 
+		display: block;
 	}
 .nav ul ul{
 	padding: 0;
@@ -32,7 +32,7 @@
 	float: none;
 }
 	.nav ul ul li{
-		float: none; 
+		float: none;
 		position: relative;
 	}
 		.nav ul ul li img:hover{
@@ -52,7 +52,7 @@
 }
 .filler{
 }
-.border{
+.border img{
 	width: 150px;
 	padding-top: none;
 	margin-top: -20px;
