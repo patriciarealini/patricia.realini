@@ -39,14 +39,14 @@
 				display: block;
 		}
 .nav ul img{
-	width: 225px;
+	max-width: 225px;
 }
 	.nav ul ul a img{
-		width: 225px;
+		max-width: 225px;
 	}
 .logo img{
 	display: block;
-	width: 475px;
+	width: 400px;
 	margin-left: auto;
 	padding-right: 17px;
 }
@@ -77,5 +77,5 @@
 	font-size: 16px;
 }
 body{
-	width: 1150px;
+	max-width: 1150px;
 }
