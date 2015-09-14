@@ -1,81 +1,27 @@
+/*hex for green #A8C971 or #A9C875*/
+/*hex for blue #59B7AF or #5EB5AC*/
+html, body, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+@font-face {
+	font-family: 'Dock11';
+	src: url(fonts/Dock11.otf);
+}
+@font-face {
+	font-family: "Yes Please";
+	src: url(fonts/yesplease.TTF);
+}
 
-.nav ul ul{
-	display:none;
+@media screen and (min-width:600px)  {
+
 }
-.nav ul li:hover>ul{
-	display: block;
+@media screen and (max-width:599px) {
+
 }
-.nav ul{
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 0px;
-	list-style: none;
-	position: relative;
-	display: inline-table;
-}
-	.nav ul:after{
-		content: "";
-		clear: both;
-		display: block;
-	}
-.nav ul li{
-	padding: 0;
-	float: left;
-	display: inline;
-}
-	.nav ul li{
-		display: block;
-	}
-.nav ul ul{
-	padding: 0;
-	position: absolute;
-	float: none;
-}
-	.nav ul ul li{
-		float: none;
-		position: relative;
-	}
-		.nav ul ul li img:hover{
-				display: block;
-		}
-.nav ul img{
-	max-width: 225px;
-}
-	.nav ul ul a img{
-		max-width: 225px;
-	}
-.logo img{
-	display: block;
-	width: 400px;
-	margin-left: auto;
-	padding-right: 17px;
-}
-.filler{
-}
-.border img{
-	width: 150px;
-	padding-top: none;
-	margin-top: -20px;
-	margin-bottom: -50px;
-	padding: none;
-}
-.bio img{
-	display: block;
-	width: 903px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 40px;
-}
-.bio p{
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 65px;
-	padding-right: 22px;
-	text-align: justify;
-	line-height: 140%;
-	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
-	font-size: 16px;
-}
-body{
-	max-width: 1150px;
-}
+
+
