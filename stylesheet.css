@@ -1,5 +1,4 @@
-/*hex for green #A8C971 or #A9C875*/
-/*hex for blue #59B7AF or #5EB5AC*/
+/*reset inherent CSS*/
 html, body, h1, h2, h3, h4, p, div {
 	padding: 0;
 	border: 0;
@@ -12,43 +11,58 @@ a, ul, li {
 	text-decoration: none;
 	list-style-type: none;
 }
-@font-face {
-	font-family: 'Dock11';
-	src: url(fonts/Dock11.otf);
-}
-@font-face {
-	font-family: "Yes Please";
-	src: url(fonts/yesplease.TTF);
-}
 
+/*background image*/
 body {
-	background: url(images/marbleblack.jpg);
-	background-size: cover;
+	background: url(images/marbleblack.png);
+	background-size: cover cover;
 	background-repeat: no-repeat;
 }
 
+/*responsive*/
 @media screen and (min-width:600px)  {
 
 }
-@media screen and (max-width:599px) {
+@media (300px < width < 600px) {
 
 }
 
 .overlay {
-	background-color: rgb(232, 233, 232);
-	border: 3px solid white;
-	margin: 10vh 5% 5%;
+	background-color: rgb(216, 218, 216);
+	border: 2px solid black;
+	width: 90%;
+	height: 60%;
+	margin: 0 5% 5% 5%;
 }
-.header h1{
-	font-size: 50px;
+.header h1 a {
+	font-family: "Playfair Display", "Garamond Bold", serif;
+	font-size: 70px;
+	font-weight: 900;
+	color: rgb(232, 233, 232);
+
+	/*
+	background: -webkit-linear-gradient(#D4AF37, #AE8913, #FFEEB5);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	*/
+}
+.header h1 a:hover {
 	color: white;
+}
+.header h1 {
 	text-align: center;
+	margin: 3% 10%;
 }
 .nav ul li {
 	display: inline-block;
 }
+.nav ul li a {
+	padding: 7px 14px;
+	border: 2px solid black;
+	color: black;
+}
 .main {
-
+	margin: 0 30px;
 }
 .links ul li {
 	display: inline-table;
