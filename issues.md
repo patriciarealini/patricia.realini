@@ -5,6 +5,7 @@
 - [ ] Style links in text with highlighting animation.
 - [ ] Style buttons to change image when hovering.
 - [ ] Use HTML frames to limit scrolling within `.main`'s content. 
+- [ ] Responsive design!!!!!!!
 - [x] Add bio as content for main page. _September 14, 2015_
 - [x] Style "logo". _Completed September 14, 2015_
 - [x] Center footer of buttons. _Completed September 14, 2015_
