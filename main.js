@@ -1,7 +1,10 @@
 //main.js
 
-//hover effect for bottom link buttons
 $(document).ready(function() {
+//hover effect that changes background color for links when hovering
+	$('.highlight').hoverHighlight('#E4D2E4'); 
+
+//hover effect for bottom link buttons
 	$('#twitter').mouseover(function() {
 		$(this.attr("class", "twitterafter"))
 	});
