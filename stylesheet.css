@@ -1,81 +1,144 @@
+/*reset inherent CSS*/
+html, body, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+a, ul, li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/*fonts*/
+@font-face {
+	font-family: "Gotham Thin";
+	src: url(/fonts/gotham-thin.ttf);
+}
 
-.nav ul ul{
-	display:none;
+/*background image*/
+body {
+	background: url(images/marbleblack.png);
+	background-size: cover cover;
+	background-repeat: no-repeat;
 }
-.nav ul li:hover>ul{
-	display: block;
+
+/*responsive*/
+@media screen and (min-width:825px)  {
+
 }
-.nav ul{
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 0px;
-	list-style: none;
-	position: relative;
-	display: inline-table;
+@media (600px < width < 825px) {
+
 }
-	.nav ul:after{
-		content: "";
-		clear: both;
-		display: block;
-	}
-.nav ul li{
-	padding: 0;
-	float: left;
-	display: inline;
+@media (600px > width) {
+
 }
-	.nav ul li{
-		display: block;
-	}
-.nav ul ul{
-	padding: 0;
-	position: absolute;
-	float: none;
+
+.overlay {
+	background-color: white;
+	border: 2px solid rgb(216, 218, 216);
+	width: 90%;
+	height: 60%;
+	margin: 0 5% 5% 5%;
 }
-	.nav ul ul li{
-		float: none;
-		position: relative;
-	}
-		.nav ul ul li img:hover{
-				display: block;
-		}
-.nav ul img{
-	max-width: 225px;
+
+.header h1 a {
+	font-family: "Playfair Display", "Garamond Bold", serif;
+	font-size: 70px;
+	letter-spacing: 5px;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 2px 3px #666;
+
+	/*
+	'i love gooooooooooooooold'
+	background: -webkit-linear-gradient(#D4AF37, #AE8913, #FFEEB5);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	*/
 }
-	.nav ul ul a img{
-		max-width: 225px;
-	}
-.logo img{
-	display: block;
-	width: 400px;
-	margin-left: auto;
-	padding-right: 17px;
+.header h1 a:hover {
+	color: rgb(232, 233, 232);
 }
-.filler{
+.header h1 {
+	text-align: center;
+	margin: 3% 10%;
 }
-.border img{
-	width: 150px;
-	padding-top: none;
-	margin-top: -20px;
-	margin-bottom: -50px;
-	padding: none;
+
+/*
+.nav ul li {
+	display: inline-block;
 }
-.bio img{
-	display: block;
-	width: 903px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 40px;
+.nav ul li a {
+	padding: 7px 14px;
+	border: 2px solid black;
+	color: black;
 }
-.bio p{
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 65px;
-	padding-right: 22px;
+*/
+
+.main {
+	margin: 30px;
+}
+.main p {
+	font-family: "Gotham Thin", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 135%;
+	letter-spacing: 1px;
+
 	text-align: justify;
-	line-height: 140%;
-	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
-	font-size: 16px;
+	line-height: 1.15;
 }
-body{
-	max-width: 1150px;
+.main p a:link, .main p a:visited {
+	color: black;
+	font-style: italic;
+}
+.main p a:hover, .main p a:active {
+	
+}
+
+/*dividing line*/
+.divider hr {
+	margin: 0 25px;
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+.divider hr:after {
+	content: "❦";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}
+
+/*bottom buttons*/
+.links ul {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.links ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+.links img{
+	height: 40px;
+	width: 40px;
+}
+
+/*hover image change*/
+.twitterafter {
+	background: url(images/TwitterMark2.png);
+}
+.githubafter {
+	background: url(images/GitHubMark2.png);
+}
+.linkedinafter {
+	background: url(images/LinkedInMark2.png);
 }
