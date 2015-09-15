@@ -18,3 +18,4 @@
 - [ ] Create work.html.
 - [ ] Create contact.html.
 - [ ] Create blog.
+- [ ] SEO
