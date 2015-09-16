@@ -1,7 +1,7 @@
 #README
 
-Web Design for www.patriciarealini.com
+Personal Site ☞ www.patriciarealini.com
 
-Copyright Patricia Realini 2015
+Keeping it simple. No dependencies. 
 
 Contact at hello@patriciarealini.com
