@@ -1,3 +1,9 @@
+/* 
+heard about this from Cascading Shit Show... not sure it works...
+html {
+	all: initial;
+}
+*/
 /*reset inherent CSS*/
 html, body, h1, h2, h3, h4, p, div {
 	padding: 0;
@@ -61,7 +67,7 @@ body {
   	*/
 }
 .header h1 a:hover {
-	text-shadow: none;
+	/*maybe a gold text border or something*/
 }
 .header h1 {
 	text-align: center;
@@ -97,6 +103,15 @@ body {
 .main p a:hover, .main p a:active {
 	
 }
+
+/*links with the class highlight*/
+.highlight a:hover {
+
+}
+.highlight a:after {
+	
+}
+
 
 /*dividing line*/
 .divider hr {
