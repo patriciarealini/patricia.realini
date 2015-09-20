@@ -25,4 +25,4 @@
 // 	$('#linkedin').mouseout(function() {
 // 		$(this.attr("class", "linkedinbefore"))
 // 	});
-});
+// });
