@@ -4,4 +4,4 @@ Personal Site ☞ www.patriciarealini.com
 
 Keeping it simple. No dependencies. 
 
-Contact at hello@patriciarealini.com
+Contact at :love_letter: hello@patriciarealini.com
