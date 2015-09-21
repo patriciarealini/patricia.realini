@@ -1,82 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<meta charset ="UTF-8">
+		<link rel="stylesheet" href="stylesheet.css"/>
+	 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	 	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="main.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+		<!--link in js & css plugins-->
 		<title>Patricia Realini</title>
 		<!--favicon in href... after "image" type in either "/ico" or "/png"-->
-		<link rel="icon" type="image" href="">
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<meta name="description" content="Patricia Realini is a junior front end developer with a background in marketing strategy & business management.">
+		<meta name="keywords" content="patricia realini, realini">
+		<meta name="author" content="Patricia Realini">
 	</head>
 
 	<body>
-			<table width="100%">
-			<tbody>
-				<tr>
-					<!--chevrons-->
-					<td colspan="1" rowspan="3" width="150px">
-						<div class="border">
-						<img src="http://24.media.tumblr.com/91b44c004f5270e194df21e25acaf23f/tumblr_n5skfejERx1tag0zjo1_1280.jpg" />
-						</div>
-					</td>
-					<td height="175px">
-						<!-- LOGO -->
-						<div class="logo">
-						<a href="http://www.patriciarealini.com"><img src="http://24.media.tumblr.com/dc014908de4f602249a1fe00a8372613/tumblr_n5omlt28SJ1tag0zjo1_500h.jpg" /></a>
-						</div>
-					</td>
-				</tr>
-			<div class="filler">
-				<tr>
-					<td align="center" height="30px">
-						<!--navigation bar-->
-						<div class="nav">
-						<ul>
-							<li><!--ABOUT--><img src="http://24.media.tumblr.com/ed5b7ff1f90a52ea5c4e0bbaa093a1e4/tumblr_n5ou223hJC1tag0zjo1_400.jpg" 
-								onmouseover="this.src='http://24.media.tumblr.com/98c1d896492da2d7b081a8fd73e17218/tumblr_n5oufvsA5a1tag0zjo1_400.jpg';"
-								onmouseout="this.src='http://24.media.tumblr.com/ed5b7ff1f90a52ea5c4e0bbaa093a1e4/tumblr_n5ou223hJC1tag0zjo1_400.jpg';" />
-							
-								<ul>
-									<li><a href="http://www.patriciarealini.com/biography.html"><img src="http://37.media.tumblr.com/917dce23191ae2720217a62d12cffb40/tumblr_n5ou223hJC1tag0zjo2_400.jpg" 
-								onmouseover="this.src='http://37.media.tumblr.com/d132a2b18910cc38707f2464eab7c502/tumblr_n5oufvsA5a1tag0zjo2_400.jpg';"
-								onmouseout="this.src='http://37.media.tumblr.com/917dce23191ae2720217a62d12cffb40/tumblr_n5ou223hJC1tag0zjo2_400.jpg';" /></a></li>
-									<li><a href="http://www.patriciarealini.com/pursuits.html"><img src="http://24.media.tumblr.com/203c59f2bd6690b17208d236d4b63e4e/tumblr_n5ou223hJC1tag0zjo6_400.jpg" 
-								onmouseover="this.src='http://37.media.tumblr.com/1dc8c18d6805db4ab983d7dc134001ab/tumblr_n5oufvsA5a1tag0zjo6_400.jpg';"
-								onmouseout="this.src='http://24.media.tumblr.com/203c59f2bd6690b17208d236d4b63e4e/tumblr_n5ou223hJC1tag0zjo6_400.jpg';" /></a></li>
-								</ul>
-							</li>							
-							<li><!--WORK--><img src="http://24.media.tumblr.com/8e0849f1c511aec1b872749cc0848e67/tumblr_n5ou223hJC1tag0zjo8_400.jpg" 
-								onmouseover="this.src='http://37.media.tumblr.com/581f20af774a432235cd8915650b45b0/tumblr_n5oufvsA5a1tag0zjo8_400.jpg';"
-								onmouseout="this.src='http://24.media.tumblr.com/8e0849f1c511aec1b872749cc0848e67/tumblr_n5ou223hJC1tag0zjo8_400.jpg';" />
-								<ul>
-									<li><a href="http://www.patriciarealini.com/resume.html"><img src="http://37.media.tumblr.com/a7bdd0571c1bae5e5c7a9f71788a0d80/tumblr_n5ou223hJC1tag0zjo7_400.jpg" 
-								onmouseover="this.src='http://24.media.tumblr.com/4846f46582a7e5619847f2b72151cc5e/tumblr_n5oufvsA5a1tag0zjo7_400.jpg';"
-								onmouseout="this.src='http://37.media.tumblr.com/a7bdd0571c1bae5e5c7a9f71788a0d80/tumblr_n5ou223hJC1tag0zjo7_400.jpg';" /></a></li>
-									<li><a href="http://www.patriciarealini.com/portfolio.html"><img src="http://24.media.tumblr.com/f640f9e5dd0de1e2641ede307a214363/tumblr_n5ou223hJC1tag0zjo5_400.jpg" 
-								onmouseover="this.src='http://24.media.tumblr.com/fc34d863fb3f5ffd49341671df15628c/tumblr_n5oufvsA5a1tag0zjo5_400.jpg';"
-								onmouseout="this.src='http://24.media.tumblr.com/f640f9e5dd0de1e2641ede307a214363/tumblr_n5ou223hJC1tag0zjo5_400.jpg';" /></a></li>
-								</ul>
-							</li>
-							<li><a href="http://blog.patriciarealini.com"><img src="http://37.media.tumblr.com/3a00a44845c213b72df8567cfbde4343/tumblr_n5ou223hJC1tag0zjo3_400.jpg" 
-								onmouseover="this.src='http://24.media.tumblr.com/54d854624e3a108fb357e256b8f9b699/tumblr_n5oufvsA5a1tag0zjo3_400.jpg';"
-								onmouseout="this.src='http://37.media.tumblr.com/3a00a44845c213b72df8567cfbde4343/tumblr_n5ou223hJC1tag0zjo3_400.jpg';" /></a></li>
-							<li><a href="http://www.patriciarealini.com/contact.html"><img src="http://24.media.tumblr.com/1c062e56e795451c61a4ebfecf4bb473/tumblr_n5ou223hJC1tag0zjo4_400.jpg" 
-								onmouseover="this.src='http://24.media.tumblr.com/97d6b0b4169b010ac2bf9645aec8a318/tumblr_n5oufvsA5a1tag0zjo4_400.jpg';"
-								onmouseout="this.src='http://24.media.tumblr.com/1c062e56e795451c61a4ebfecf4bb473/tumblr_n5ou223hJC1tag0zjo4_400.jpg';" /></a></li>
-						</ul>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td valign="top">
-						<!--insert content here-->
-						<div class="home">
-
-						</div>
-					</td>
-				</tr>
+			<div class="header">
+				<h1><a href="http://www.patriciarealini.com">PATRICIA REALINI</a></h1>
 			</div>
-			</tbody>
-			</table>	
-
+			<div class="overlay">
+				<!-- will add back navigation when i have more pages
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="work.html">WORK</a>
+							</li>
+							<li>
+								<a href="blog.html">BLOG</a>
+							</li>
+							<li>
+								<a href="contact.html">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+				-->
+				<div class="main">
+					<p>Patricia Realini is a junior front end developer with a background in marketing strategy & business management. As a member of <a href="https://twitter.com/maptimela" class="highlight">MaptimeLA</a> &mdash; the Los Angeles chapter of Maptime's community of geographers & coders who contribute to Open Street Maps & GIS development &mdash; Patricia attended HackForLA in June 2015. At HackForLA, a civic minded hackathon, she helped create <a href="http://devpost.com/software/pool-party" class="highlight">Pool Party</a>, a web app for connecting commuters. Pool Party won both the California Health Care Foundation's "CHCF Health + Transportation Prize as well as the Esri's "Esri Challenge"​ for best utilization of ArcGIS. Patricia also recently led a workshop on Git & GitHub called <a href="http://slides.com/patriciarealini/get-git-got#/" class="highlight">Get Git Got</a>, an introduction to Git through the command line. In July 2015, Patricia was awarded a diversity scholarship by <a href="https://bocoup.com/" class="highlight">Bocoup</a> & <a href="http://www.wocintechchat.com/" class="highlight">Women of Color In Tech Chat</a> to attend <a href="https://2015.texasjavascript.com/" class="highlight">TXJS</a> in Austin. A 2014 graduate of Chapman University's Argyros School of Business, Patricia holds a Bachelor of Science in business administration with an emphasis in marketing. Previously, Patricia managed various marketing & event planning efforts with a focus on community growth strategy. In her spare time she likes to camp in Big Sur, shoot film photography with her Mamiya C330 & bake pies from scratch.</p>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="links">
+					<ul>
+						<li>
+							<a href="http://www.twitter.com/patriciarealini">
+								<img src="images/TwitterMark.png" class="twitterbefore" id="twitter"  alt="Twitter" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.github.com/patriciarealini">
+								<img src="images/GitHubMark.png" class="githubbefore" id="github" alt="GitHub" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.linkedin.com/in/patriciarealini">
+								<img src="images/LinkedInMark.png" class="linkedinbefore" id="linkedin" alt="LinkedIn" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 	</body>
 
 
