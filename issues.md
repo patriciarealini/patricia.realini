@@ -8,8 +8,8 @@
 
 #### By September 20, 2015
 
-- [ ] Style links in text with highlighting animation. [CSS]
-- [ ] Style buttons to change image when hovering. [JQuery/CSS]
+- [ ] Style buttons to change image when hovering. [CSS]
+- [x] Style links in text with highlighting animation. _Completed September 20, 2015_
 - [x] Add bio as content for main page. _September 14, 2015_
 - [x] Style "logo". _Completed September 14, 2015_
 - [x] Center footer of buttons. _Completed September 14, 2015_
