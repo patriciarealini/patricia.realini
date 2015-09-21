@@ -96,20 +96,26 @@ body {
 	text-align: justify;
 	line-height: 1.15;
 }
-.main p a:link, .main p a:visited {
-	color: black;
-	font-style: italic;
-}
-.main p a:hover, .main p a:active {
-	
-}
 
 /*links with the class highlight*/
-.highlight a:hover {
+.highlight:link, .highlight:visited {
+	color: black;
+	font-style: italic;
 
+	padding: 3px;
+	padding-top: 2px;
+
+	transition: all 0.75s ease;
+	background: linear-gradient(to left, white 50%, rgb(201, 191, 208) 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+}
+.highlight:hover {
+	background-position: left bottom;
+	border-radius: 2px;
 }
 .highlight a:after {
-	
+	background-color: rgb(201, 191, 208);
 }
 
 
