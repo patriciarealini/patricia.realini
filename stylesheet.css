@@ -139,16 +139,17 @@ body {
 }
 
 /*bottom buttons*/
-.links ul {
+.footer ul {
 	display: block;
 	text-align: center;
 	margin-bottom: 20px;
 }
-.links ul li {
+.footer ul li {
 	display: inline-block;
 	margin: 0 20px;
+	transition: ;
 }
-.links img{
+.footer img{
 	height: 50px;
 	width: 50px;
 }
