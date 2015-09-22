@@ -21,5 +21,5 @@
 - [ ] Style navigation bar hover.
 - [ ] Create work.html.
 - [ ] Create contact.html.
-- [ ] Create blog.
+- [ ] Create blog. [Jekyll? Tumblr?]
 - [ ] SEO. Right now my site is on page 2 of Google. Get to page 1!
