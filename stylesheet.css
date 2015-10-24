@@ -147,20 +147,60 @@ body {
 .footer ul li {
 	display: inline-block;
 	margin: 0 20px;
-	transition: ;
 }
 .footer img{
 	height: 50px;
 	width: 50px;
 }
 
-/*hover image change*/
-.twitterafter {
+/*hover image change
+#twitterafter {
 	background: url(images/TwitterMark2.png);
 }
-.githubafter {
+#githubafter {
 	background: url(images/GitHubMark2.png);
 }
-.linkedinafter {
+#linkedinafter {
 	background: url(images/LinkedInMark2.png);
 }
+*/
+
+/*** effect - image opacity ***/
+/*
+.footer img {
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px
+}
+
+.footer .footerlink {
+	opacity:1
+}
+.footer .footerhover {
+	opacity:0
+}
+.footer:hover .footerlink {
+	opacity:0
+}
+.footer:hover .footerhover {
+	opacity:1
+}
+
+.footer img {
+	transition:all .75s ease-in-out;
+	-webkit-transition:all .75s ease-in-out;
+	-moz-transition:all .75s ease-in-out;
+	-ms-transition:all .75s ease-in-out;
+	-o-transition:all .75s ease-in-out;
+}
+
+.footer:hover img {
+	transition:all .75s ease-in-out;
+	-webkit-transition:all .75s ease-in-out;
+	-moz-transition:all .75s ease-in-out;
+	-ms-transition:all .75s ease-in-out;
+	-o-transition:all .75s ease-in-out;
+}
+*/
