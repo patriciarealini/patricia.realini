@@ -1,15 +1,26 @@
 //main.js
 
-// $(document).ready(function() {
-// hover effect that changes background color for links when hovering
-//	$('.highlight').mouseover(function() {
-//		$(this.effects("highlight", {color: "#E3D0E3"}, 3000))
-//	}); 
+$(document).ready(function() {
+// hover effect for bottom link buttons
+ 	$('.twitter').hover(
+ 		function() {
+ 			$('.twitterFooterLink').remove();
+ 			var twitterHover = $('<a href="http://www.twitter.com/patriciarealini" class="twitterFooterHover"><img src="images/TwitterMark2.png" alt="Twitter" /></a>');
+ 			$(this).append(twitterHover);
+ 			$(this).unbind('mouseenter mouseleave');
+ 		},
+ 		function() {
+  			$('.twitterFooterHover').remove();
+ 			var twitter = $('<a href="http://www.twitter.com/patriciarealini" class="twitterFooterLink"><img src="images/TwitterMark.png" alt="Twitter" /></a>');
+ 			$(this).append(twitter);
+ 			$(this).unbind('mouseenter mouseleave');
+ 		}
+ 	);
+});
 
-// // hover effect for bottom link buttons
-// 	$('#twitter').mouseover(function() {
-// 		$(this.attr("class", "twitterafter"))
-// 	});
+//<img src="images/GitHubMark2.png" class="footerhover" alt="GitHub" />
+//<img src="images/LinkedInMark2.png" class="footerhover" alt="LinkedIn" />
+
 // 	$('#twitter').mouseout(function() {
 // 		$(this.attr("class", "twitterbefore"))
 // 	});
@@ -25,4 +36,3 @@
 // 	$('#linkedin').mouseout(function() {
 // 		$(this.attr("class", "linkedinbefore"))
 // 	});
-// });
