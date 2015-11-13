@@ -1,6 +1,8 @@
 #Issues
 
-#### By September 27, 2015
+#### Open
+
+- [ ] Style buttons to change image when hovering. [JQuery/CSS]
 
 - [ ] Use HTML frames to limit scrolling within `.main`'s content? [HTML]
 - [ ] Responsive design!!!!!!! [CSS]
@@ -8,8 +10,7 @@
 
 #### By September 20, 2015
 
-- [ ] Style links in text with highlighting animation. [CSS]
-- [ ] Style buttons to change image when hovering. [JQuery/CSS]
+- [x] Style links in text with highlighting animation. [CSS]
 - [x] Add bio as content for main page. _September 14, 2015_
 - [x] Style "logo". _Completed September 14, 2015_
 - [x] Center footer of buttons. _Completed September 14, 2015_
@@ -22,4 +23,4 @@
 - [ ] Create work.html.
 - [ ] Create contact.html.
 - [ ] Create blog.
-- [ ] SEO. Right now my site is on page 2 of Google. Get to page 1!
+- [x] SEO. Right now my site is on page 2 of Google. Get to page 1!
