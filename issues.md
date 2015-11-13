@@ -3,7 +3,6 @@
 #### Open
 
 - [ ] Style buttons to change image when hovering. [JQuery/CSS]
-
 - [ ] Use HTML frames to limit scrolling within `.main`'s content? [HTML]
 - [ ] Responsive design!!!!!!! [CSS]
 - [ ] Test on IE, Safari & Firefox. Make adjustments where necessary.
