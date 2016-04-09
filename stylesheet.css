@@ -27,8 +27,8 @@ body {
 
 .overlay {
 	background-color: white;
-	max-width: 1600px;
 	width: 90%;
+	max-width: 1600px;
 	height: 60%;
 	margin: 0 5% 5% 5%;
 	border: 2px solid rgb(216, 218, 216);
@@ -47,6 +47,7 @@ body {
 
 	color: rgb(255, 255, 255);
 	background: url(images/gold.png);
+	background-repeat: repeat;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	/*text-shadow: 0px 2px 3px #666;*/
@@ -97,13 +98,15 @@ body {
 
 /*bottom buttons*/
 .footer ul {
-	display: block;
+	width: 30%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 	text-align: center;
 	margin-bottom: 20px;
 }
 .footer ul li {
-	display: inline-block;
-	margin: 0 20px;
+	flex: 1;
 }
 .footer img{
 	height: 50px;
