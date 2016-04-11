@@ -5,6 +5,7 @@ html, body, h1, h2, h3, h4, p, div {
 	font: inherit;
 	font-size: 100%;
 	font-family: "Futura", Helvetica, sans-serif;
+	color: #FFFFFF;
 }
 a, ul, li {
 	text-decoration: none;
@@ -189,14 +190,14 @@ body {
 	}
 }
 
-.work {
+.work, .talks {
 	display: flex;
 	justify-content: space-around;
 }
-.projects {
+.projects, .confs {
 	flex: 1;
 }
-.projects h1 {
+.projects h1, .confs h1 {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
