@@ -4,7 +4,7 @@ html, body, h1, h2, h3, h4, p, div {
 	margin: 0;
 	font: inherit;
 	font-size: 100%;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Futura", "Helvetica Neue", Helvetica, sans-serif;
 }
 a, ul, li {
 	text-decoration: none;
@@ -22,14 +22,29 @@ body {
 	background: #CFCB9C;
 }
 
-.overlay {
-	background-color: #CFCB9C;
+
+.nav {
+	background-color: #9C964A;
+	height: 7vh;
+}
+.nav ul {
 	width: 90%;
-	max-width: 1600px;
-	height: 60%;
-	margin: 0 5% 5% 5%;
-	border: 3px solid #FFFFFF;
-	box-shadow: 16px 18px #9C964A;
+	height: 7vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+.nav ul li a {
+	color: #CFCB9C;
+	font-family: "Lucida Sans Typewriter", monospace;
+	font-size: 25px;
+	letter-spacing: 3px;
+	text-transform: lowercase;
+}
+.nav ul li a:hover, .nav ul li a:active {
+	color: #FFFFFF;
 }
 
 .header h1 {
@@ -39,7 +54,7 @@ body {
 	text-transform: uppercase;
 }
 .header h1 a {
-	font-family: "Futura", "Playfair Display", "Garamond Bold", serif;
+	font-family: "Futura", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 45px;
 	letter-spacing: 20px;
 	padding-left: 15px;
@@ -67,39 +82,29 @@ body {
 	margin: 6px 0 0 6px;
 }*/
 
-.nav ul {
+.overlay {
+	background-color: #CFCB9C;
 	width: 90%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-	text-align: center;
-	margin-bottom: 30px;
+	max-width: 1600px;
+	height: 60%;
+	margin: 0 5% 5% 5%;
+	border: 3px solid #FFFFFF;
+	box-shadow: 16px 18px #9C964A;
 }
-/*.nav ul li {
-	flex: 1;
-}
-.nav ul li a {
-	padding: 10px 16px;
-	background-color: #FFFFFF;
-	border-radius: 3px;
-
-	color: #CFCB9C;
-	font-family: "Futura", "Gotham Thin", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 2vw;
-	text-transform: uppercase;
-}*/
 
 .main {
 	margin: 30px;
 }
 .main p {
-	font-family: "Futura", "Gotham Thin", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
-	text-transform: uppercase;
+	font-size: 19px;
+	/*text-transform: uppercase;*/
+	font-weight: 400;
 	letter-spacing: 1px;
 
 	text-align: justify;
-	line-height: 1.75;
+	line-height: 1.5;
 }
 
 .highlight:link, .highlight:visited {
