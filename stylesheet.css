@@ -33,18 +33,33 @@ body {
 }
 
 .header h1 {
+	width: 80%;
+	margin: 3% auto;
 	text-align: center;
-	margin: 3% 10%;
 	text-transform: uppercase;
 }
 .header h1 a {
 	font-family: "Futura", "Playfair Display", "Garamond Bold", serif;
-	font-size: 5vw;
+	font-size: 45px;
 	letter-spacing: 20px;
 	padding-left: 15px;
 	font-weight: 900;
 	color: #FFFFFF;
 	text-shadow: 6px 6px #9C964A;
+}
+@media screen and (max-width: 892px) {
+	.header h1 a {
+		padding-left: 10px;
+	}
+	.header span {
+		padding-left: 20px;
+		letter-spacing: 29px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.header h1 a {
+		font-size: 7vw;
+	}
 }
 /*.header h1 a:hover, .header h1 a:active {
 	color: #9C964A;
