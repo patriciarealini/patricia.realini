@@ -126,6 +126,9 @@ body {
 	background-color:  #9C964A;
 }
 
+.footer {
+	margin-bottom: 30px;
+}
 .footer ul {
 	width: 30%;
 	height: 52px;
