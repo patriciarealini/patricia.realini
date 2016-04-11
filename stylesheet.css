@@ -4,18 +4,13 @@ html, body, h1, h2, h3, h4, p, div {
 	margin: 0;
 	font: inherit;
 	font-size: 100%;
-	font-family: "Futura", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Futura", Helvetica, sans-serif;
 }
 a, ul, li {
 	text-decoration: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-/*fonts*/
-@font-face {
-	font-family: "Learning Curve";
-	src: url(/fonts/LearningCurve.ttf);
 }
 
 body {
@@ -85,7 +80,7 @@ body {
 	text-transform: uppercase;
 }
 .header h1 a {
-	font-family: "Futura", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Futura", Helvetica, sans-serif;
 	font-size: 50px;
 	letter-spacing: 20px;
 	padding-left: 15px;
