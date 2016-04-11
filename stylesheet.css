@@ -123,10 +123,10 @@ body {
 	border: 3px solid #FFFFFF;
 	box-shadow: 16px 18px #9C964A;
 }
-.main, .main-contact {
+.main {
 	margin: 30px;
 }
-.main p, .main-contact p {
+.main p {
 	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
 	font-size: 19px;
@@ -138,7 +138,7 @@ body {
 .main p {
 	text-align: justify;
 }
-.main-contact p {
+.contact-page p {
 	text-align: center;
 }
 @media screen and (max-width: 550px) {
@@ -148,14 +148,14 @@ body {
 		border: none;
 		box-shadow: none;
 	}
-	.main, .main-contact {
+	.main {
 		margin: 0;
 	}
-	.main p, .main-contact p {
+	.main p {
 		text-shadow: 3px 3px #9C964A;
 		text-align: left;
 	}
-	.main p a.highlight, .main-contact p a.highlight {
+	.main p a.highlight {
 		background: inherit;
 		background-color: #9C964A;
 	}
