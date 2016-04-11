@@ -119,23 +119,27 @@ body {
 	width: 90%;
 	max-width: 1600px;
 	height: 60%;
-	margin: 0 5% 5% 5%;
+	margin: 0 auto 5%;
 	border: 3px solid #FFFFFF;
 	box-shadow: 16px 18px #9C964A;
 }
-.main {
+.main, .main-contact {
 	margin: 30px;
 }
-.main p {
+.main p, .main-contact p {
 	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
 	font-size: 19px;
 	/*text-transform: uppercase;*/
 	font-weight: 400;
 	letter-spacing: 1px;
-
-	text-align: justify;
 	line-height: 1.5;
+}
+.main p {
+	text-align: justify;
+}
+.main-contact p {
+	text-align: center;
 }
 @media screen and (max-width: 550px) {
 	.overlay {
@@ -144,14 +148,14 @@ body {
 		border: none;
 		box-shadow: none;
 	}
-	.main {
+	.main, .main-contact {
 		margin: 0;
 	}
-	.main p {
+	.main p, .main-contact p {
 		text-shadow: 3px 3px #9C964A;
 		text-align: left;
 	}
-	.main p a.highlight {
+	.main p a.highlight, .main-contact p a.highlight {
 		background: inherit;
 		background-color: #9C964A;
 	}
