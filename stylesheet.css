@@ -120,6 +120,14 @@ body {
 .main {
 	margin: 30px;
 }
+.main h1 {
+	color: #FFFFFF;
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 900;
+	text-shadow: 3px 3px #9C964A;
+	text-transform: uppercase;
+}
 .main p {
 	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
@@ -181,6 +189,19 @@ body {
 	}
 }
 
+.work {
+	display: flex;
+	justify-content: space-around;
+}
+.projects {
+	flex: 1;
+}
+.projects h1 {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 3px solid #FFFFFF;
+}
 
 .footer {
 	margin-bottom: 30px;
