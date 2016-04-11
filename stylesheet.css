@@ -25,11 +25,13 @@ body {
 
 .nav {
 	background-color: #9C964A;
-	height: 7vh;
+}
+.nav .fa-bars {
+	display: none;
 }
 .nav ul {
 	width: 90%;
-	height: 7vh;
+	min-height: 60px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
@@ -41,10 +43,40 @@ body {
 	font-family: "Lucida Sans Typewriter", monospace;
 	font-size: 25px;
 	letter-spacing: 3px;
-	text-transform: lowercase;
+}
+.nav ul li a i {
+	margin-right: 5px;
 }
 .nav ul li a:hover, .nav ul li a:active {
 	color: #FFFFFF;
+}
+@media screen and (max-width: 700px) {
+	.nav ul {
+		width: 75%;
+		min-height: 80px;
+		flex-wrap: wrap;
+		padding: 5px 0;
+	}
+	.nav ul li {
+		width: 160px;
+		margin: 0 10px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.nav .fa-bars {
+		display: block;
+		padding: 5px 5px 0 0;
+		font-size: 25px;
+		text-align: right;
+		color: #FFFFFF;
+	}
+	.nav ul {
+		height: inherit;
+		flex-direction: column;
+	}
+	.nav ul li {
+		margin: 5px 0;
+	}
 }
 
 .header h1 {
