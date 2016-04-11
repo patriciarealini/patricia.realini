@@ -155,9 +155,17 @@ body {
 		text-shadow: 3px 3px #9C964A;
 		text-align: left;
 	}
+	.contact-page p {
+		text-align: center;
+	}
 	.main p a.highlight {
 		background: inherit;
 		background-color: #9C964A;
+	}
+}
+@media screen and (max-width: 350px) {
+	.contact-page p {
+		font-size: 5vw;
 	}
 }
 
