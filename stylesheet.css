@@ -29,8 +29,12 @@ body {
 	min-height: 60px;
 	margin: 0 auto;
 	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 	align-items: center;
+	-webkit-align-items: center;
 	text-align: center;
 }
 .nav ul li a {
@@ -50,6 +54,7 @@ body {
 		width: 75%;
 		min-height: 80px;
 		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
 		padding: 5px 0;
 	}
 	.nav ul li {
@@ -68,6 +73,7 @@ body {
 	.nav ul {
 		height: inherit;
 		flex-direction: column;
+		-webkit-flex-direction: column;
 	}
 	.nav ul li {
 		margin: 5px 0;
@@ -92,15 +98,21 @@ body {
 @media screen and (max-width: 950px) {
 	.header h1 {
 		display: flex;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
 		justify-content: center;
+		-webkit-justify-content: center;
 		align-items: center;
+		-webkit-align-items: center;
 	}
 	.header h1 a {
 		flex: 1;
+		-webkit-flex: 1;
 		padding-left: 0;
 	}
 	.header span {
 		flex: 1;
+		-webkit-flex: 1;
 		padding-left: 15px;
 		letter-spacing: 30px;
 	}
@@ -200,8 +212,12 @@ body {
 
 .work, .talks {
 	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 	align-items: flex-end;
+	-webkit-align-items: flex-end;
 }
 .projects, .confs {
 	flex: 1;
@@ -216,8 +232,11 @@ body {
 @media screen and (max-width: 600px) {
 	.work, .talks {
 		flex-direction: column;
+		-webkit-flex-direction: column;
 		justify-content: center;
+		-webkit-justify-content: center;
 		align-items: center;
+		-webkit-align-items: center;
 	}
 	.projects h1, .confs h1 {
 		width: 80vw;
@@ -232,7 +251,10 @@ body {
 	height: 52px;
 	margin: 50px auto 20px;
 	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
 	justify-content: space-between;
+	-webkit-justify-content: space-between;
 	text-align: center;
 }
 .footer ul li {
