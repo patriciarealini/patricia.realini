@@ -49,7 +49,7 @@ body {
 .nav ul li a:hover, .nav ul li a:active {
 	color: #FFFFFF;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
 	.nav ul {
 		width: 75%;
 		min-height: 80px;
@@ -62,7 +62,7 @@ body {
 		margin: 0 10px;
 	}
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
 	.nav .fa-bars {
 		display: block;
 		padding: 5px 5px 0 0;
@@ -95,7 +95,7 @@ body {
 	color: #FFFFFF;
 	text-shadow: 6px 6px #C68006;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) and (-webkit-min-device-pixel-ratio: 2) {
 	.header h1 {
 		display: flex;
 		display: -webkit-flex;
@@ -117,7 +117,7 @@ body {
 		letter-spacing: 30px;
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
 	.header h1 a {
 		font-size: 10vw;
 		letter-spacing: 5vw;
@@ -128,7 +128,7 @@ body {
 		padding-left: 4vw;
 	}
 }
-@media screen and (max-width: 275px) {
+@media screen and (max-width: 275px) and (-webkit-min-device-pixel-ratio: 2) {
 	.header span {
 		padding-left: 5px;
 	}
@@ -188,7 +188,7 @@ body {
 .highlight a:after {
 	background-color:  #FFFFFF;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
 	.overlay {
 		width: 85%;
 		margin: 0 auto;
@@ -209,7 +209,7 @@ body {
 		border-bottom: 3px solid #C68006;
 	}
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) and (-webkit-min-device-pixel-ratio: 2) {
 	.contact-page p {
 		font-size: 5vw;
 	}
@@ -234,7 +234,7 @@ body {
 	letter-spacing: 5px;
 	border-bottom: 3px solid #FFFFFF;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
 	.work, .talks {
 		flex-direction: column;
 		-webkit-flex-direction: column;
@@ -275,7 +275,7 @@ body {
 	text-shadow: none;
 	margin: 4px 0 0 4px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
 	.footer ul {
 		margin: 30px auto;
 	}
