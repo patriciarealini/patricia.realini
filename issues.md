@@ -7,7 +7,7 @@
 - [ ] Implement & refactor into Sass.
 - [x] Style navigation bar.
 - [x] Style navigation bar hover.
-- [ ] Make the Header responsive.
+- [x] Make the Header responsive.
 - [ ] Write script to collapse and expand nav bar from the hamburger menu.
 - [ ] Create work.html.
 - [ ] Create talks.html.
