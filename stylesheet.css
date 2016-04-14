@@ -153,6 +153,11 @@ body {
 	font-weight: 900;
 	text-shadow: 3px 3px #972D15;
 	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	border-bottom: 3px solid #FFFFFF;
 }
 .main p {
 	font-family: "Lucida Sans Typewriter", monospace;
@@ -167,6 +172,11 @@ body {
 	text-align: justify;
 }
 .contact-page p {
+	text-align: center;
+}
+.caption p {
+	margin-bottom: 15px;
+	width: 22vw;
 	text-align: center;
 }
 .highlight:link, .highlight:visited {
@@ -198,11 +208,11 @@ body {
 	.main {
 		margin: 0;
 	}
+	.main h1 {
+		width: 80vw;
+	}
 	.main p {
 		text-align: left;
-	}
-	.contact-page p {
-		text-align: center;
 	}
 	.main p a.highlight {
 		background: inherit;
@@ -210,29 +220,34 @@ body {
 	}
 }
 @media all and (max-width: 350px) and (-webkit-min-device-pixel-ratio: 1) {
-	.contact-page p {
+	.contact-page p, .caption p {
 		font-size: 5vw;
 	}
 }
 
-.work, .talks {
+.work, .talks, .headshots, .pictures{
 	display: flex;
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 	justify-content: space-around;
 	-webkit-justify-content: space-around;
+}
+.work, .talks {
 	align-items: flex-end;
 	-webkit-align-items: flex-end;
 }
-.projects, .confs {
+.headshots {
+	align-items: center;
+	-webkit-align-items: center;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.projects, .confs, .pictures {
 	flex: 1;
 }
-.projects h1, .confs h1 {
-	width: 80%;
-	margin: 0 auto 20px;
-	text-align: center;
-	letter-spacing: 5px;
-	border-bottom: 3px solid #FFFFFF;
+.pictures img {
+	width: 22vw;
+	height: 100%;
 }
 @media all and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
 	.work, .talks {
@@ -242,9 +257,6 @@ body {
 		-webkit-justify-content: center;
 		align-items: center;
 		-webkit-align-items: center;
-	}
-	.projects h1, .confs h1 {
-		width: 80vw;
 	}
 }
 
