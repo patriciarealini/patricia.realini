@@ -50,7 +50,7 @@ body {
 	color: #FFFFFF;
 }
 @media all and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
-	.nav ul {
+	/*.nav ul {
 		width: 75%;
 		min-height: 80px;
 		flex-wrap: wrap;
@@ -69,7 +69,7 @@ body {
 		font-size: 30px;
 		text-align: right;
 		color: #CE9486;
-	}
+	}*/
 	.nav ul {
 		height: inherit;
 		flex-direction: column;
@@ -149,7 +149,7 @@ body {
 .main h1 {
 	color: #FFFFFF;
 	font-family: "Futura", Helvetica, sans-serif;
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: 900;
 	text-shadow: 3px 3px #972D15;
 	text-transform: uppercase;
@@ -158,9 +158,6 @@ body {
 	text-align: center;
 	letter-spacing: 5px;
 	border-bottom: 3px solid #FFFFFF;
-}
-.main h1 a {
-	color: #FFFFFF;
 }
 .main p, .main li {
 	font-family: "Lucida Sans Typewriter", monospace;
@@ -201,6 +198,12 @@ body {
 .highlight a:after {
 	background-color:  #FFFFFF;
 }
+@media all and (max-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
+	.main h1 {
+		width: 275px;
+		min-width: 100%;
+	}
+}
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.overlay {
 		width: 85%;
@@ -212,7 +215,7 @@ body {
 		margin: 0;
 	}
 	.main h1 {
-		width: 80vw;
+		min-width: 80vw;
 	}
 	.main p {
 		text-align: left;
@@ -245,17 +248,20 @@ body {
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 }
-.big-section {
-	flex: 2;
-}
 .confs, .pictures {
 	flex: 1;
+	min-width: 200px;
+	text-align: center;
+}
+.confs h1 a {
+	color: #FFFFFF;
+	text-align: center;
 }
 .pictures img {
 	width: 22vw;
 	height: 100%;
 }
-@media all and (max-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
+@media all and (max-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 	.talks {
 		flex-direction: column;
 		-webkit-flex-direction: column;
