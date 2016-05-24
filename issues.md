@@ -14,8 +14,8 @@
 - [ ] Write script to change the color scheme of the page based on the hour & time zone. Include ease-in/ease-out transition.
   - [ ] Use moment.js & moment-timezone.js to track the time.
   - [ ] Use DOM manipulation to change styles on the appropriate class.
-- [ ] Populate work.html
-- [ ] Populate talks.html
+- [x] ~Populate work.html~ Upload pdf resume
+- [x] Populate talks.html
 - [ ] Populate speaking.html
 
 #### By September 20, 2015
