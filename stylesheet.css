@@ -159,7 +159,10 @@ body {
 	letter-spacing: 5px;
 	border-bottom: 3px solid #FFFFFF;
 }
-.main p {
+.main h1 a {
+	color: #FFFFFF;
+}
+.main p, .main li {
 	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
 	font-size: 19px;
@@ -242,6 +245,9 @@ body {
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 }
+.big-section {
+	flex: 2;
+}
 .projects, .confs, .pictures {
 	flex: 1;
 }
@@ -258,6 +264,33 @@ body {
 		align-items: center;
 		-webkit-align-items: center;
 	}
+}
+
+.resume {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.big-section {
+	flex: 2;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	/*justify-content: space-between;
+	-webkit-justify-content: space-between;*/
+}
+.lil-section {
+	flex: 1;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.big-section li, .lil-section li {
+	font-size: 16px;
 }
 
 .footer {
