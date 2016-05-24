@@ -15,11 +15,11 @@ a, ul, li {
 }
 
 body {
-	background: #E8C95D;
+	background-color: #CE9486;
 }
 
 .nav {
-	background-color: #C68006;
+	background-color: #972D15;
 }
 .nav .fa-bars {
 	display: none;
@@ -38,7 +38,7 @@ body {
 	text-align: center;
 }
 .nav ul li a {
-	color: #E8C95D;
+	color: #CE9486;
 	font-family: "Lucida Sans Typewriter", monospace;
 	font-size: 25px;
 	letter-spacing: 3px;
@@ -49,8 +49,8 @@ body {
 .nav ul li a:hover, .nav ul li a:active {
 	color: #FFFFFF;
 }
-@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
-	.nav ul {
+@media all and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+	/*.nav ul {
 		width: 75%;
 		min-height: 80px;
 		flex-wrap: wrap;
@@ -62,14 +62,14 @@ body {
 		margin: 0 10px;
 	}
 }
-@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.nav .fa-bars {
 		display: block;
 		padding: 5px 5px 0 0;
 		font-size: 30px;
 		text-align: right;
-		color: #E8C95D;
-	}
+		color: #CE9486;
+	}*/
 	.nav ul {
 		height: inherit;
 		flex-direction: column;
@@ -93,9 +93,9 @@ body {
 	padding-left: 15px;
 	font-weight: 900;
 	color: #FFFFFF;
-	text-shadow: 6px 6px #C68006;
+	text-shadow: 6px 6px #972D15;
 }
-@media screen and (max-width: 950px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 950px) and (-webkit-min-device-pixel-ratio: 1) {
 	.header h1 {
 		display: flex;
 		display: -webkit-flex;
@@ -117,7 +117,7 @@ body {
 		letter-spacing: 30px;
 	}
 }
-@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
 	.header h1 a {
 		font-size: 10vw;
 		letter-spacing: 5vw;
@@ -128,20 +128,20 @@ body {
 		padding-left: 4vw;
 	}
 }
-@media screen and (max-width: 275px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 275px) and (-webkit-min-device-pixel-ratio: 1) {
 	.header span {
 		padding-left: 5px;
 	}
 }
 
 .overlay {
-	background-color: #E8C95D;
+	background-color: #CE9486;
 	width: 90%;
 	max-width: 1600px;
 	height: 60%;
 	margin: 0 auto 5%;
 	border: 4px solid #FFFFFF;
-	box-shadow: 16px 21px #C68006;
+	box-shadow: 16px 21px #972D15;
 }
 .main {
 	margin: 30px;
@@ -149,16 +149,21 @@ body {
 .main h1 {
 	color: #FFFFFF;
 	font-family: "Futura", Helvetica, sans-serif;
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: 900;
-	text-shadow: 3px 3px #C68006;
+	text-shadow: 3px 3px #972D15;
 	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	border-bottom: 3px solid #FFFFFF;
 }
-.main p {
+.main p, .main li {
 	font-family: "Lucida Sans Typewriter", monospace;
 	color: #FFFFFF;
 	font-size: 19px;
-	text-shadow: 2px 2px #C68006;
+	text-shadow: 2px 2px #972D15;
 	font-weight: 400;
 	letter-spacing: 1px;
 	line-height: 1.65;
@@ -169,15 +174,20 @@ body {
 .contact-page p {
 	text-align: center;
 }
+.caption p {
+	margin-bottom: 15px;
+	width: 22vw;
+	text-align: center;
+}
 .highlight:link, .highlight:visited {
-	color: #C68006;
+	color: #972D15;
 	font-weight: 900;
 	text-shadow: none;
-	border-bottom: 3px solid #C68006;
+	border-bottom: 3px solid #972D15;
 	padding: 2px;
 
 	transition: all 0.75s ease;
-	background: linear-gradient(to left, #E8C95D 50%, #FFFFFF 50%);
+	background: linear-gradient(to left, #CE9486 50%, #FFFFFF 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
@@ -188,7 +198,13 @@ body {
 .highlight a:after {
 	background-color:  #FFFFFF;
 }
-@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
+	.main h1 {
+		width: 275px;
+		min-width: 100%;
+	}
+}
+@media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.overlay {
 		width: 85%;
 		margin: 0 auto;
@@ -198,53 +214,62 @@ body {
 	.main {
 		margin: 0;
 	}
+	.main h1 {
+		min-width: 80vw;
+	}
 	.main p {
 		text-align: left;
 	}
-	.contact-page p {
-		text-align: center;
-	}
 	.main p a.highlight {
 		background: inherit;
-		border-bottom: 3px solid #C68006;
+		border-bottom: 3px solid #972D15;
 	}
 }
-@media screen and (max-width: 350px) and (-webkit-min-device-pixel-ratio: 2) {
-	.contact-page p {
+@media all and (max-width: 350px) and (-webkit-min-device-pixel-ratio: 1) {
+	.contact-page p, .caption p {
 		font-size: 5vw;
 	}
 }
 
-.work, .talks {
+.talks, .headshots, .pictures{
 	display: flex;
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 	justify-content: space-around;
 	-webkit-justify-content: space-around;
+}
+.talks {
 	align-items: flex-end;
 	-webkit-align-items: flex-end;
 }
-.projects, .confs {
+.headshots {
+	align-items: center;
+	-webkit-align-items: center;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.confs, .pictures {
 	flex: 1;
-}
-.projects h1, .confs h1 {
-	width: 80%;
-	margin: 0 auto 20px;
+	min-width: 200px;
 	text-align: center;
-	letter-spacing: 5px;
-	border-bottom: 3px solid #FFFFFF;
 }
-@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
-	.work, .talks {
+.confs h1 a {
+	color: #FFFFFF;
+	text-align: center;
+}
+.pictures img {
+	width: 22vw;
+	height: 100%;
+}
+@media all and (max-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
+	.talks {
 		flex-direction: column;
 		-webkit-flex-direction: column;
 		justify-content: center;
 		-webkit-justify-content: center;
 		align-items: center;
 		-webkit-align-items: center;
-	}
-	.projects h1, .confs h1 {
-		width: 80vw;
+		text-align: center;
 	}
 }
 
@@ -268,14 +293,14 @@ body {
 }
 .footer i{
 	color: #FFFFFF;
-	text-shadow: 4px 4px #C68006;
+	text-shadow: 4px 4px #972D15;
 }
 .footer i:hover, .footer i:active {
-	color: #C68006;
+	color: #972D15;
 	text-shadow: none;
 	margin: 4px 0 0 4px;
 }
-@media screen and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 2) {
+@media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.footer ul {
 		margin: 30px auto;
 	}
