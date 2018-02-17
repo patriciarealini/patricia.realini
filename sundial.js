@@ -8,25 +8,25 @@ var moment =
 
 document.getElementByClass("body").style.background-color = "red";
 
-// 0000 Midnight
+// 0000 Midnight Evergreen
 //   primary color
 //   secondary color
-// 0100
+// 0100 Constellation Blue
 //   primary color
 //   secondary color
-// 0200
+// 0200 Indigo
 //   primary color
 //   secondary color
-// 0300
+// 0300 Royal Purple
 //   primary color
 //   secondary color
-// 0400
+// 0400 Grease Grey
 //   primary color
 //   secondary color
-// 0500 Sunrise
+// 0500 Sunrise Taupe
 //   primary color
 //   secondary color
-// 0600 Dewy Morning Greens
+// 0600 Dewy Morning Green
 //   primary color #CFCB9C
 //   secondary color #908B45
 // 0700 Poolside Morning Aqua
@@ -41,13 +41,13 @@ document.getElementByClass("body").style.background-color = "red";
 // 1000 Warm Morning Rose
 //   primary color #CE9486
 //   secondary color #972D15
-// 1100 Lunch Rust
+// 1100 Lunch Tomato
 //   primary color
 //   secondary color
-// 1200 High Noon Yellow
+// 1200 High Noon Mustard
 //   primary color #E8C95D
 //   secondary color #C68006
-// 1300 Tomato
+// 1300 Afternoon Tangerine
 //   primary color
 //   secondary color
 // 1400 Dark Afternoon Tan
