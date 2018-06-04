@@ -237,6 +237,8 @@ body {
 	-webkit-flex-direction: row;
 	justify-content: space-around;
 	-webkit-justify-content: space-around;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 }
 .talks {
 	align-items: flex-end;
@@ -250,12 +252,23 @@ body {
 }
 .confs, .pictures {
 	flex: 1;
-	min-width: 200px;
+	max-width: 350px;
+	min-width: 300px;
+	height: 250px;
 	text-align: center;
+
+	display: flex;
+	display: -webkit-flex;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
 }
 .confs h1 a {
 	color: #FFFFFF;
 	text-align: center;
+}
+.confs h1 a:hover {
+	color: #972D15;
+	text-shadow: none;
 }
 .pictures img {
 	width: 22vw;
