@@ -94,11 +94,14 @@ h1, h2, h3, h4, a, p, ul li {
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.main {
 		bottom: 90px;
+		max-width: 350px;
+		margin-right: 0;
 	}
 }
 @media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
 	.main {
 		bottom: 150px;
+		max-width: 250px;
 	}
 }
 
