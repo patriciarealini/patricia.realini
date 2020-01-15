@@ -179,15 +179,18 @@ footer {
 	.footer-nav a {
 		margin-left: 0;
 	}
+	footer ul {
+		max-width: 400px;
+	}
 }
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	footer ul {
-		max-width: 250px;
+		max-width: 300px;
 	}
 }
 @media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
 	footer ul {
-		max-width: 175px;
+		max-width: 200px;
 	}
 }
 
