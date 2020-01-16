@@ -183,7 +183,7 @@ footer {
 		margin-left: 0;
 	}
 	footer ul {
-		max-width: 375px;
+		max-width: 350px;
 	}
 }
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
