@@ -126,20 +126,12 @@ h1, h2, h3, h4, a, p, ul li {
 }
 @media all and (max-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
 	.talks {
-		margin: 80px 40px 100px;
+		margin: 80px 40px 150px;
 	}
 }
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
-	.talks {
-		margin: 80px 40px 80px;
-	}
 	.talks h2, .talks a {
 		font-size: 13px;
-	}
-}
-@media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
-	.talks {
-		margin: 80px 40px 150px;
 	}
 }
 
