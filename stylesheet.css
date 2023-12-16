@@ -88,19 +88,18 @@ h1, h2, h3, h4, a, p, ul li {
 }
 @media all and (max-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
 	.main {
-		bottom: 115px;
+		bottom: 150px;
 	}
 }
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	.main {
-		bottom: 90px;
+		bottom: 125px;
 		max-width: 350px;
 		margin-right: 0;
 	}
 }
 @media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
 	.main {
-		bottom: 150px;
 		max-width: 250px;
 	}
 }
@@ -153,11 +152,11 @@ footer {
 		bottom: 0;
 		right: 0;
 		width: 100%;
-		padding: 5px 5px 10px;
+		padding: 10px 5px;
 		background-color: #3C1F4F;
 	}
 	footer ul {
-		max-width: 400px;
+		max-width: 250px;
 		margin-left: auto;
 		padding: 0 10px;
 	}
@@ -182,13 +181,10 @@ footer {
 	.footer-nav a {
 		margin-left: 0;
 	}
-	footer ul {
-		max-width: 400px;
-	}
 }
 @media all and (max-width: 550px) and (-webkit-min-device-pixel-ratio: 1) {
 	footer ul {
-		max-width: 300px;
+		max-width: 175px;
 	}
 }
 @media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
