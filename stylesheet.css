@@ -81,7 +81,7 @@ h1, h2, h3, h4, a, p, ul li {
 	bottom: 40px;
     left: 40px;
     max-width: 550px;
-	margin-right: 40px;
+	/* margin-right: 40px; */
 }
 .main p {
 	line-height: 1.25;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, a, p, ul li {
 	.main {
 		bottom: 125px;
 		max-width: 350px;
-		margin-right: 0;
+		/* margin-right: 0; */
 	}
 }
 @media all and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -115,6 +115,14 @@ h1, h2, h3, h4, a, p, ul li {
 }
 .talks h2, .talks a {
 	font-size: 16px;
+}
+.talks a:after {
+	content:' ↗';
+	display: inline;
+	vertical-align: center;
+	color: #D7BFE6;
+	-webkit-animation: blink 1s linear infinite;
+	animation: blink 1s linear infinite;
 }
 @media all and (max-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
 	.talks {
